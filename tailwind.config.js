@@ -8,7 +8,7 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif']
       },
       backgroundImage: {
-        'clickImage': 'url(/src/components/images/image-right.png)',
+        'clickImage': 'url(@/assets/images/image-right.png)',
       },
       background: {
         'clickModalBackground': 'linear-gradient(180deg, #130625 0%, #1B0929 100%);'

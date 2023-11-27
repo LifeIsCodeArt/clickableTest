@@ -64,8 +64,8 @@ const store = useSocialStore().socialMedia
     <div class="absolute top-[50%] left-[50%] h-[44rem] translate-x-[-50%] translate-y-[-50%] container flex rounded-2xl z-20 max-md:left-[48%] max-md:h-auto  max-md:top-[48%]  max-md:w-[20rem]  max-md:translate-x-[-47%] max-md:translate-y-[-50%] max-md:flex max-md:flex-col">
         <div class="w-[24.5em] rounded-l-2xl flex flex-col  items-center modalLSBackground relative z-10 max-md:h-[20rem] max-md:w-full max-md:rounded-none">
             <div class="mt-[3.8rem] flex justify-center items-center w-[8.875rem] max-md:mt-[3.38rem]">
-                <img src="../components/icons/logo.png" alt="" class="w-[2.10rem] h-[1.3125rem] mr-[0.63rem] max-md:w-[2rem] max-md:h-[1.25rem]">
-                <img src="../components/icons/ClickSPIN.svg" alt="" class="w-[6.1rem] h-[0.773rem] max-md:w-[5.8rem] max-md:h-[1rem]">
+                <img src="../assets/icons/logo.png" alt="" class="w-[2.10rem] h-[1.3125rem] mr-[0.63rem] max-md:w-[2rem] max-md:h-[1.25rem]">
+                <img src="../assets/icons/ClickSPIN.svg" alt="" class="w-[6.1rem] h-[0.773rem] max-md:w-[5.8rem] max-md:h-[1rem]">
             </div>
             <div class="mt-[3.17rem] max-md:mt-[1.5rem]">
                 <p class="w-80 text-center text-neutral-50 text-base font-normal font-['Stolzl'] uppercase leading-none tracking-tight mb-[0.5rem] max-md:text-[1rem] max-md:items-center:leading-[1rem]">
@@ -74,18 +74,18 @@ const store = useSocialStore().socialMedia
                   100% cashback for VIPs only
                 </p>
             </div>
-            <img src="../components/icons/Ellipse%201.svg" alt="#" class="absolute w-56 h-56 bg-rose-700 rounded-full blur-3xl bottom-[3.44em] left-[4.31em] rounded-full z-[1] max-md:hidden">
-            <img src="../components/icons/Ellipse%202.svg" alt="#" class="absolute absolute top-[20.81rem] left-[0.44rem] w-28 h-28 bg-orange-300 rounded-full blur-3xl z-[1] max-md:hidden">
-            <img src="../components/icons/Ellipse%203.svg" alt="#" class="absolute w-28 h-28 bg-orange-300 rounded-full blur-3xl right-0 bottom-[7.62rem] z-[1] max-md:hidden">
-            <img src="../components/icons/Ellipse%204.svg" alt="#" class="absolute w-28 h-28 bg-orange-300 rounded-full blur-3xl left-[-1.25rem] bottom-[-3.31rem] z-[1] max-md:hidden">
-            <img src="../components/icons/Ellipse%205.svg" alt="#" class="absolute w-28 h-28 bg-orange-300 rounded-full blur-3xl top-[20.81rem] right-[3.44rem] z-[1] max-md:hidden">
-            <img src="../components/images/lollibomb.png" alt="#" class="absolute w-[6.24518rem] h-[8.24518rem] right-0 top-[14.2628rem] rotate-[-4.343deg] max-md:rotate-[-1.343deg] max-md:top-[11.2628rem]">
-            <img src="../components/images/reverse-lolipop.png" alt="#" class="absolute bottom-0 left-[0.19rem] w-[7.60569rem] h-[5.74694rem] max-md:w-[5.8rem] max-md:h-[5rem] max-md:left-[0.1rem]  max-md:bottom-[-1.5rem]">
+            <img src="/icons/Ellipse%201.svg" alt="#" class="absolute w-56 h-56 bg-rose-700 rounded-full blur-3xl bottom-[3.44em] left-[4.31em] rounded-full z-[1] max-md:hidden">
+            <img src="/icons/Ellipse%202.svg" alt="#" class="absolute absolute top-[20.81rem] left-[0.44rem] w-28 h-28 bg-orange-300 rounded-full blur-3xl z-[1] max-md:hidden">
+            <img src="/icons/Ellipse%203.svg" alt="#" class="absolute w-28 h-28 bg-orange-300 rounded-full blur-3xl right-0 bottom-[7.62rem] z-[1] max-md:hidden">
+            <img src="/icons/Ellipse%204.svg" alt="#" class="absolute w-28 h-28 bg-orange-300 rounded-full blur-3xl left-[-1.25rem] bottom-[-3.31rem] z-[1] max-md:hidden">
+            <img src="/icons/Ellipse%205.svg" alt="#" class="absolute w-28 h-28 bg-orange-300 rounded-full blur-3xl top-[20.81rem] right-[3.44rem] z-[1] max-md:hidden">
+            <img src="/images/lollibomb.png" alt="#" class="absolute w-[6.24518rem] h-[8.24518rem] right-0 top-[14.2628rem] rotate-[-4.343deg] max-md:rotate-[-1.343deg] max-md:top-[11.2628rem]">
+            <img src="/images/reverse-lolipop.png" alt="#" class="absolute bottom-0 left-[0.19rem] w-[7.60569rem] h-[5.74694rem] max-md:w-[5.8rem] max-md:h-[5rem] max-md:left-[0.1rem]  max-md:bottom-[-1.5rem]">
          <div class="">
 
          </div>
-            <img src="../components/images/lollipop.png" alt="" class="absolute lolipop top-[43%] left-[1.88rem] max-md:left-[-1.1rem] max-md:top-[52%] z-[1]">
-            <img src="../components/images/clown.png" alt="" class="absolute w-[385px] h-[400px] bottom-0 left-[1.2rem] z-10 max-md:w-[10.25rem] max-md:bottom-[-1.25rem]  max-md:left-[5.2rem] max-md:h-[10.31rem]">
+            <img src="../assets/images/lollipop.png" alt="" class="absolute lolipop top-[43%] left-[1.88rem] max-md:left-[-1.1rem] max-md:top-[52%] z-[1]">
+            <img src="../assets/images/clown.png" alt="" class="absolute w-[385px] h-[400px] bottom-0 left-[1.2rem] z-10 max-md:w-[10.25rem] max-md:bottom-[-1.25rem]  max-md:left-[5.2rem] max-md:h-[10.31rem]">
         </div>
         <div class="bg-[#131313] w-[24.5rem] rounded-r-2xl px-[1rem] py-[1rem] z-10 max-md:w-full max-md:py-[0px] max-md:h-[32rem] max-md:rounded-none">
             <div class="flex justify-end items-end">
@@ -166,7 +166,7 @@ input{
   left: 1rem;
   width: 1rem;
   height: 1rem;
-  background: url('../components/icons/Mail.png') no-repeat;
+  background: url('@/assets/icons/Mail.png') no-repeat;
   background-size: cover;
 }
 .password:before{
@@ -176,7 +176,7 @@ input{
   left: 1rem;
   width: 1rem;
   height: 1rem;
-  background: url('../components/icons/Mail.png') no-repeat;
+  background: url('@/assets/icons/Mail.png') no-repeat;
   background-size: cover;
 }
 .modalLSBackground{
