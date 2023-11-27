@@ -55,7 +55,7 @@ onMounted(()=>{
                   Deposit 500, get 500 USDT <span class="text-[#EBBE7D] font-bold">as a gift</span>
                 </p>
             </div>
-            <p class="uppercase Gotham font-normal text-[#999] w-[28.1875rem] leading-[2rem] text-[1.5rem]  z-[8] max-md:w-full max-md:text-center max-md:pl-[1rem] max-md:leading-[1.25rem] max-md:text-[1rem] md:max-lg:w-[90%]">
+            <p class=" relative uppercase Gotham font-normal text-[#999] w-[28.1875rem] leading-[2rem] text-[1.5rem]  z-[8] max-md:w-full max-md:text-center max-md:pl-[1rem] max-md:leading-[1.25rem] max-md:text-[1rem] md:max-lg:w-[90%]">
                 100% cashback for VIPs only
             </p>
             <button class="mt-[101px] Gotham z-[8] font-bold w-[22.18rem] px-[3.5rem] pt-[17px] pb-[15px] text-center text-[1.2rem] leading-[1.5rem] text-[#0B0B0A] bg-[#EBBE7D] rounded-[56px] uppercase hover:bg-[#FCFCFC]
