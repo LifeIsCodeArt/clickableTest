@@ -42,6 +42,7 @@ const createNewUser = () =>{
       password: inputPassword.value,
     }
       console.log(newUser)
+      console.log(totalValidation.checkBoxValid)
 }
 
 watch(
@@ -130,7 +131,7 @@ const store = useSocialStore().socialMedia
 
                 <button type="submit" @click.prevent="createNewUser()" class="w-full py-[1rem] px-[1rem] text-center text-[#282828] rounded-xl text-[0.875rem] bg-[#1C1C1C] leading-[1rem] tracking-[0.0125rem] cursor-not-allowed pointer-events-none"
                         :class="{
-                        'cursor-allowed pointer-events-auto cursor-pointer text-black bg-[#E4C086] hover:bg-[#ffffff]': (totalValidation.emailValid && totalValidation.checkBoxValid && totalValidation.passwordValid)
+                        'cursor-allowed pointer-events-auto cursor-pointer text-black bg-[#E4C086] hover:bg-[#ffffff]': ((totalValidation.emailValid && totalValidation.checkBoxValid) && (totalValidation.passwordValid && inputPassword))
                         }">
                       Create an account
                 </button>
